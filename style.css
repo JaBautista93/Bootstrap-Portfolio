@@ -234,8 +234,12 @@ input[type=submit] {
   .main-section {
     float: none;
     width: 100%;
-    margin: 0;
-    border: 0;
+    margin: 0%;
+    border: 0%;
+    }
+    .main-container {
+      padding-top: 0px;
+      min-height: 0px;
     }
   }
 
@@ -244,13 +248,14 @@ input[type=submit] {
   .main-section {
     float: none;
     width: 100%;
-    margin: 0;
-    border: 0;
+    margin: 0%;
+    border: 0%;
     }
   }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 992px) {  
+@media (min-width: 992px) {
+  
 }
 
 /* // Extra large devices (large desktops, 1200px and up)
